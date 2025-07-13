@@ -1,0 +1,16 @@
+[project]
+name = "recengine-fastapi"
+version = "0.1.0"
+description = "A FastAPI server managed with uv."
+authors = [
+    { name = "Jaggernaut", email = "user@example.com" }
+]
+
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
